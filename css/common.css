@@ -1,0 +1,6 @@
+/** common.css - Stuff shared between all CSS files - Updated 30th March **/
+
+* {
+        margin: 0px;
+        box-sizing: border-box;
+}

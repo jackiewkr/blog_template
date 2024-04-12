@@ -1,0 +1,39 @@
+/* main.css */
+@import url("common.css");
+
+body {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100%;
+        align-content: stretch;
+
+        width: 100vw;
+        height: 100vh;
+}
+
+.sidebar {
+        grid-column: 1;
+        grid-row: 1;
+        border: 1px solid black;
+
+        width: 100%;
+        height: 100%;
+}
+
+main {
+        grid-column: 2;
+        grid-row: 1;
+
+        padding: 5px;
+
+        overflow-y: scroll;
+
+        font-size: 1.1rem;
+}
+
+
+main > * {
+        margin-bottom: 10px;
+}
+
+time { display: none; }

@@ -1,0 +1,30 @@
+@import url("common.css");
+
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        width: 100vw;
+        height: 100vh;
+}
+
+body > header, nav > a {
+        text-decoration: none;
+        padding: 5px;
+}
+
+nav > a:hover {
+}
+
+body > nav {
+        overflow-y: scroll;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+}
+
+body > header > h1 {
+        font-size: 1.666rem;
+}
